@@ -8,7 +8,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/website_2/buttons')
+@app.route('/web/buttons')
 def buttons():
     return render_template('home.html')
 
