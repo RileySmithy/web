@@ -9,7 +9,7 @@ def home():
     
     btn_pressed = request.form.get('press')
     if btn_pressed:
-        return redirect(url_for("home"))
+        return redirect(url_for("index"))
 
 
 if __name__ == '__main__':
